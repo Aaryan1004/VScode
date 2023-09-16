@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.chat-area{
+    position: relative;
+}
+#chatArea{
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+#dropdown-container{
+    display: none;
+    position: absolute;
+    bottom: 45rem;
+}
+#dropdown-menu{
+    background-color: darkturquoise;
+    text-align: center;
+    width: 30em;
+    height: 2em;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+    padding: 10em 10em;
+    background: url(cover.jpg);
+    opacity: 0.5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: 100% 20%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.glass {
+    width: 500px;
+    height: 1000px;
+    background-color: rgba(156, 62, 36, 0.909);
+    padding: 50px;
+    color: #000;
+    border-radius: 9px;
+    backdrop-filter: blur(50px);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+    line-height: 2;
+    transform: translatey(-5%);
+    transition: transform 0.5s;
+}
+
+.glass h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.glass h2 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.input {
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.input input {
+    position: absolute;
+    bottom: 0;
+    left: 2px; 
+    width: 100%;
+    height: 50px;
+    border: none;
+    padding-left: 30px;
+    padding-top: 0;
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 20px;
+}
+

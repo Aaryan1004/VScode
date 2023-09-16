@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot JavaScript</title>
+    <link rel="stylesheet" href="Chatbox.css">
+</head>
+
+<body>
+
+    <div class="glass">
+        <h1>Ask Me Anything </h1>
+        <h2>Hi May I know your name?</h2>
+        <div class="Chat-Area">
+            <div id="dropdown-container" >
+            </div>
+            <div id="chatArea">
+            </div>
+        </div>
+        <div class="input">
+            <input type="text" id="userBox" onkeydown="if(event.keyCode == 13){ talk()}"
+                placeholder="Type your Query" />
+        </div>
+    </div>
+    <script src="ChatboxMini.js"></script>
+    <script src="Chatbox.js"></script>
+</body>
+
+</html>
